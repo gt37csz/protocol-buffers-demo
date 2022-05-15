@@ -2,7 +2,7 @@ syntax = "proto3";
 package tutorial;
 
 import "google/protobuf/timestamp.proto";
-option go_package = "github.com/gt37csz/protocol-buffers-demo/examples/go/tutorialpb";
+option go_package = "examples/go/tutorialpb";
 
 message Person {
   string name = 1;
